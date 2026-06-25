@@ -1,5 +1,5 @@
 version: "1"
-  rules:
-    - base: main
-      upstream: ORIGINAL_OWNER:main   # 改成上游仓库所有者:分支
-      mergeMethod: merge              # 推荐 merge，不会覆盖你的修改
+rules:
+  - base: main
+    upstream: cmliu:main      # 改成你的上游仓库
+    mergeMethod: merge
